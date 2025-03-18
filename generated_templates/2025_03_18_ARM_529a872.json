@@ -1,0 +1,39 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "appName": {
+            "value": "python_web_app"
+        },
+        "longAppName": {
+            "value": "this does stuff"
+        },
+        "environment": {
+            "value": "dev"
+        },
+        "hardwareSpecs": {
+            "value": "basic"
+        },
+        "dataClassification": {
+            "value": "low"
+        },
+        "compliancePCI": {
+            "value": false
+        },
+        "complianceGDPR": {
+            "value": true
+        },
+        "businessOwner": {
+            "value": "CHM@ds.com"
+        },
+        "criticality": {
+            "value": "medium"
+        },
+        "adminUser": {
+            "value": "carhadmin"
+        },
+        "adminPass": {
+            "value": "password1"
+        }
+    }
+}

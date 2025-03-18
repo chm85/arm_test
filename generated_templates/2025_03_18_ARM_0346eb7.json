@@ -1,0 +1,6 @@
+{
+    "region": "us-west",
+    "instance_type": "D2",
+    "os_type": "windows",
+    "storage": "hdd"
+}

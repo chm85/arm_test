@@ -1,0 +1,39 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "appName": {
+            "value": "Test"
+        },
+        "longAppName": {
+            "value": "app_test"
+        },
+        "environment": {
+            "value": "prod"
+        },
+        "hardwareSpecs": {
+            "value": "high"
+        },
+        "dataClassification": {
+            "value": "medium"
+        },
+        "compliancePCI": {
+            "value": true
+        },
+        "complianceGDPR": {
+            "value": true
+        },
+        "businessOwner": {
+            "value": "CHM@ds.com"
+        },
+        "criticality": {
+            "value": "low"
+        },
+        "adminUser": {
+            "value": "carhadmin"
+        },
+        "adminPass": {
+            "value": "password1"
+        }
+    }
+}
