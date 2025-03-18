@@ -11,10 +11,10 @@ app = Flask(__name__)
 app.config['SECRET_KEY'] = 'your_secret_key_here'
 
 # Azure Storage Configuration
-AZURE_STORAGE_ACCOUNT_NAME = "hackathon1march2sa_1742311372944"
+AZURE_STORAGE_ACCOUNT_NAME = "hackathon1march2sa"
 AZURE_STORAGE_CONTAINER = "inbound"
 AZURE_KEY = os.getenv("SAKEY")
-AZURE_STORAGE_CONNECTION_STRING = f"DefaultEndpointsProtocol=https;AccountName=hackathon1march2sa_1742311372944;AccountKey={AZURE_KEY};EndpointSuffix=core.windows.net"
+AZURE_STORAGE_CONNECTION_STRING = f"DefaultEndpointsProtocol=https;AccountName=hackathon1march2sa;AccountKey={AZURE_KEY};EndpointSuffix=core.windows.net"
 
 # Define the form
 class ARMTemplateForm(FlaskForm):
